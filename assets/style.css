@@ -1,0 +1,36 @@
+
+.card-body {
+    white-space: nowrap;
+    overflow: scroll;
+    text-overflow: ellipsis;
+    background-color: #e2e4d5;
+
+}
+
+table {
+    width: 100%;
+
+}
+
+@media screen and (min-width: 768px) {
+    .card-body {
+        overflow: auto;
+    }
+}
+
+body {
+    background-color: rgb(48, 24, 36);
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    font-variant: small-caps;
+    font-style: italic;
+}
+
+.jumbotron, .card-header, .btn {
+    background-color: darkgreen;
+    color: rgb(251, 255, 25);
+    border: black
+}
+
+.card {
+    border-color: black;
+}
